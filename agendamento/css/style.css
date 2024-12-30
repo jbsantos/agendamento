@@ -1,0 +1,223 @@
+.horario-disponivel {
+  background-color: #4db468;
+  margin-right: 5px;
+  color: white !important;
+}
+
+.horario-ocupado {
+  background-color: #ff0000;
+  margin-right: 5px;
+  color: white !important;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-group label {
+  font-weight: 500;
+}
+
+.btn {
+  font-weight: 500;
+}
+
+.alert {
+  font-weight: 500;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.alert-success {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.alert-danger {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.alert-warning {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.email-form {
+  margin-top: 20px;
+}
+
+/* Footer */
+footer {
+  color: #000;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* Estilos globais */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f5f5;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-weight: 600;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+/* Textos na barra de navegação */
+.navbar-text {
+  color: #fff;
+}
+
+/* Conteúdo principal */
+.container {
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos personalizados para os cartões */
+.card {
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card a {
+  color: var(--text-color);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para o cabeçalho */
+.header {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 60px 0;
+}
+
+.header h1 {
+  font-size: 3rem;
+}
+
+.header p {
+  font-size: 1.5rem;
+}
+
+.navbar-nova {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar-nova:hover {
+  color: #ff8e20;
+}
+
+.logo {
+  max-width: 40%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: calc(33.333% - 20px);
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Adicione uma cor de fundo diferente para cada coluna */
+#column-aguardando {
+  background-color: #e1f5fe;
+}
+
+#column-iniciado {
+  background-color: #fff3e0;
+}
+
+#column-cancelado {
+  background-color: #ffebee;
+}
+
+#column-finalizado {
+  background-color: #e8f5e9;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-tabs .nav-item {
+  margin-bottom: -1px;
+}
+
+.nav-tabs .nav-link {
+  border: 1px solid transparent;
+  border-radius: 0;
+  padding: 0.5rem 1rem;
+}
+
+.nav-tabs .nav-link.active {
+  border-color: #ddd #ddd #fff;
+}
